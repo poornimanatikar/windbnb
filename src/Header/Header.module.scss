@@ -1,0 +1,36 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  margin:10px;
+  .searchResult {
+      display: flex;
+      line-height: 30px;
+      .locationResult {
+          border:1px solid grey;
+          padding:5px;
+          border-top-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+      }
+      .guestResult {
+          border:1px solid grey;
+          padding:5px;
+      }
+      .buttonResult {
+          border:1px solid grey;
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+      }
+  }
+}
+.stayHeader {
+    .heading {
+        font-family: 'Montserrat',sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .stays {
+        font-family: 'Montserrat',sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
